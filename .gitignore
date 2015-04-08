@@ -1,0 +1,8 @@
+.DS_Store
+!content/
+content/*
+!content/languages/
+/wp
+local-config.php
+*.sql
+.capistrano
