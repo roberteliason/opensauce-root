@@ -1,14 +1,11 @@
-set :application, 'shipyard'
-set :repo_url, 'git@dev.o-lab.se:shipyard-wordpress-root-starter/shipyard-starter-theme.git'
+set :application, 'opensauce'
+set :repo_url, 'http://github.com/roberteliason/opensauce-root.git'
 
 set :scm, :git
 set :ssh_options, { :forward_agent => true, }
 
 set :deploy_via, :remote_cache
 set :copy_exclude, [".git", ".DS_Store", ".gitignore", ".gitmodules"]
-
-role :app, %w{root@127.0.0.1}
-set :linked_dirs, %w{content/uploads content/cache content/languages}
 
 set :composer_install_flags, '--no-dev --prefer-dist --no-scripts --quiet --optimize-autoloader'
 set :composer_roles, :all
