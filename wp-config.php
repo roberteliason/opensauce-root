@@ -41,7 +41,7 @@ $table_prefix  = 'wp_';
 // Language
 // Leave blank for American English
 // ================================
-define( 'WPLANG', 'sv_SE' );
+define( 'WPLANG', '' );
 
 // ===================
 // Bootstrap WordPress
