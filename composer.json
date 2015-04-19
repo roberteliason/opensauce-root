@@ -29,12 +29,15 @@
 	"require": {
 		"php": ">=5.4",
 		"johnpbloch/wordpress": "*",
-		"wpackagist-plugin/query-monitor": "*",
 		"wpackagist-plugin/wordpress-seo": "*",
 		"wpackagist-plugin/google-analytics-for-wordpress": "*",
 		"shipyard/advanced-custom-fields-pro": "dev-master",
 		"opensauce/opensauce-theme": "dev-develop"
 	},
+    "require-dev": {
+        "wpackagist-plugin/query-monitor": "*",
+        "wpackagist-plugin/duplicate-post": "*"
+    },
 	"extra": {
 		"installer-paths": {
 			"content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
