@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0d3529ee1313267a75d60af3130b808a",
+    "hash": "668b6dae8ef3d1a1facf0aa547522cee",
     "packages": [
         {
             "name": "composer/installers",
@@ -270,26 +270,6 @@
             "homepage": "https://wordpress.org/plugins/google-analytics-for-wordpress/"
         },
         {
-            "name": "wpackagist-plugin/query-monitor",
-            "version": "2.7.2",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/2.7.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.7.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/query-monitor/"
-        },
-        {
             "name": "wpackagist-plugin/wordpress-seo",
             "version": "2.0.1",
             "source": {
@@ -310,7 +290,48 @@
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "wpackagist-plugin/duplicate-post",
+            "version": "2.6",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/duplicate-post/",
+                "reference": "tags/2.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/duplicate-post.2.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/duplicate-post/"
+        },
+        {
+            "name": "wpackagist-plugin/query-monitor",
+            "version": "2.7.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/query-monitor/",
+                "reference": "tags/2.7.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.7.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/query-monitor/"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
