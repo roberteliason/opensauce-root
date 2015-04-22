@@ -103,16 +103,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.1.1",
+            "version": "4.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "b6a0e3c2ef178f97ce8b709897fd4411420b3ccb"
+                "reference": "51483bcc2f2aadc3bb1f0df20060cdc00dda576e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/b6a0e3c2ef178f97ce8b709897fd4411420b3ccb",
-                "reference": "b6a0e3c2ef178f97ce8b709897fd4411420b3ccb",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/51483bcc2f2aadc3bb1f0df20060cdc00dda576e",
+                "reference": "51483bcc2f2aadc3bb1f0df20060cdc00dda576e",
                 "shasum": ""
             },
             "require": {
@@ -136,7 +136,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2015-02-18 22:16:06"
+            "time": "2015-04-21 14:31:05"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -189,7 +189,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/roberteliason/opensauce_theme.git",
-                "reference": "602fa49693ea1a38345223b0df922bcf4d9822cb"
+                "reference": "564b36a078f768f136e3e6bfb9f1e697a8c4ff30"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -214,7 +214,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-04-08 20:18:49"
+            "time": "2015-04-19 19:50:03"
         },
         {
             "name": "shipyard/advanced-custom-fields-pro",
@@ -222,7 +222,7 @@
             "source": {
                 "type": "git",
                 "url": "git@dev.o-lab.se:richard.sweeney/advanced-custom-fields-pro.git",
-                "reference": "63a412a743ca998931ec3a3b86021caf92230dd0"
+                "reference": "24b43d39b5801eb4252d4a01c45c0d80f35c6b03"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -247,19 +247,19 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-03-19 08:08:53"
+            "time": "2015-04-22 06:41:25"
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "5.3.3",
+            "version": "5.4.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/5.3.3"
+                "reference": "tags/5.4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.3.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.4.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -271,15 +271,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "2.0.1",
+            "version": "2.1.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/2.0.1"
+                "reference": "tags/2.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.2.0.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.2.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -313,15 +313,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "2.7.2",
+            "version": "2.7.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/2.7.2"
+                "reference": "tags/2.7.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.7.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.7.3.zip",
                 "reference": null,
                 "shasum": null
             },
