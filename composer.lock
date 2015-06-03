@@ -103,16 +103,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.2",
+            "version": "4.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "4c247a5f81af6207a99ecda3ce3b895a9f6af84e"
+                "reference": "998358f3b7a2c75caae11ff3c79e514951aac7f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/4c247a5f81af6207a99ecda3ce3b895a9f6af84e",
-                "reference": "4c247a5f81af6207a99ecda3ce3b895a9f6af84e",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/998358f3b7a2c75caae11ff3c79e514951aac7f6",
+                "reference": "998358f3b7a2c75caae11ff3c79e514951aac7f6",
                 "shasum": ""
             },
             "require": {
@@ -136,7 +136,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2015-04-23 16:31:07"
+            "time": "2015-05-07 01:46:09"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -189,7 +189,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/roberteliason/opensauce_theme.git",
-                "reference": "8d518e2be11377bff9906a671bddf1f5d5a209af"
+                "reference": "84309096ba5b864ec3a65d39b0c89f4090a40191"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -214,7 +214,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-04-26 10:53:24"
+            "time": "2015-06-03 10:32:41"
         },
         {
             "name": "shipyard/advanced-custom-fields-pro",
@@ -222,7 +222,7 @@
             "source": {
                 "type": "git",
                 "url": "git@dev.o-lab.se:richard.sweeney/advanced-custom-fields-pro.git",
-                "reference": "24b43d39b5801eb4252d4a01c45c0d80f35c6b03"
+                "reference": "87168295037f25c59ec13a8d5961cc3f6ddc8062"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -247,7 +247,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-04-22 06:41:25"
+            "time": "2015-06-01 06:48:35"
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
