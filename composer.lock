@@ -192,7 +192,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/roberteliason/opensauce_theme.git",
-                "reference": "1c79b449ec14225c31f197c1eaa6e29581342623"
+                "reference": "834a6738f36b068e012e040c0109fdc2b87e40e8"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -217,7 +217,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-06-03 10:53:51"
+            "time": "2015-07-30 13:17:49"
         },
         {
             "name": "shipyard/advanced-custom-fields-pro",
@@ -225,7 +225,7 @@
             "source": {
                 "type": "git",
                 "url": "git@dev.o-lab.se:richard.sweeney/advanced-custom-fields-pro.git",
-                "reference": "ffffcb7b314e7021650f5e4a240b40b29397a4d4"
+                "reference": "3f2987cf1a944b0333a33cdffb478e6bd8ba91be"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -250,7 +250,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-06-23 11:19:07"
+            "time": "2015-07-27 07:36:13"
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
