@@ -192,7 +192,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/roberteliason/opensauce_theme.git",
-                "reference": "87853cfdbdca3262d7592e16988beb452062e548"
+                "reference": "e0356595012af40ecec0b8788302957946b1b0c2"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -217,7 +217,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-08-06 11:18:22"
+            "time": "2015-08-06 11:25:25"
         },
         {
             "name": "shipyard/advanced-custom-fields-pro",
