@@ -103,16 +103,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.2.3",
+            "version": "4.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "56525f7941a9835ae64deafcaff15cd52336e467"
+                "reference": "7ba0030c15a88c63b3ba2e8ebee1215e211aa9a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/56525f7941a9835ae64deafcaff15cd52336e467",
-                "reference": "56525f7941a9835ae64deafcaff15cd52336e467",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/7ba0030c15a88c63b3ba2e8ebee1215e211aa9a1",
+                "reference": "7ba0030c15a88c63b3ba2e8ebee1215e211aa9a1",
                 "shasum": ""
             },
             "require": {
@@ -136,7 +136,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2015-07-23 11:16:08"
+            "time": "2015-08-04 12:01:12"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -192,7 +192,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/roberteliason/opensauce_theme.git",
-                "reference": "293a6d72e052c4dd22e8e1e4b3d11c2d6d412476"
+                "reference": "085d9da5d1d3c84b2b8bbb55bf484f755f0e9cf5"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -217,7 +217,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-07-31 11:46:53"
+            "time": "2015-08-06 09:00:35"
         },
         {
             "name": "shipyard/advanced-custom-fields-pro",
@@ -254,15 +254,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "5.4.4",
+            "version": "5.4.5",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/5.4.4"
+                "reference": "tags/5.4.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.4.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.4.5.zip",
                 "reference": null,
                 "shasum": null
             },
