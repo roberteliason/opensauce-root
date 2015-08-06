@@ -192,7 +192,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/roberteliason/opensauce_theme.git",
-                "reference": "8b8f28dca9aba1cd3f2df725f8a4a614a9735de5"
+                "reference": "87853cfdbdca3262d7592e16988beb452062e548"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -217,7 +217,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-08-06 11:00:23"
+            "time": "2015-08-06 11:18:22"
         },
         {
             "name": "shipyard/advanced-custom-fields-pro",
@@ -274,15 +274,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "2.3.2",
+            "version": "2.3.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/2.3.2"
+                "reference": "tags/2.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.2.3.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.2.3.3.zip",
                 "reference": null,
                 "shasum": null
             },
