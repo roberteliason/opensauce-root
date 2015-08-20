@@ -103,16 +103,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.2.4",
+            "version": "4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "7ba0030c15a88c63b3ba2e8ebee1215e211aa9a1"
+                "reference": "2afe902599538caaa0f1fd7579895dd7cc0ac5f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/7ba0030c15a88c63b3ba2e8ebee1215e211aa9a1",
-                "reference": "7ba0030c15a88c63b3ba2e8ebee1215e211aa9a1",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/2afe902599538caaa0f1fd7579895dd7cc0ac5f7",
+                "reference": "2afe902599538caaa0f1fd7579895dd7cc0ac5f7",
                 "shasum": ""
             },
             "require": {
@@ -136,7 +136,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2015-08-04 12:01:12"
+            "time": "2015-08-18 18:16:11"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -225,7 +225,7 @@
             "source": {
                 "type": "git",
                 "url": "git@dev.o-lab.se:richard.sweeney/advanced-custom-fields-pro.git",
-                "reference": "3f2987cf1a944b0333a33cdffb478e6bd8ba91be"
+                "reference": "246485a939b5baf1b49b2c398a1050b0bda550ca"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -250,7 +250,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-07-27 07:36:13"
+            "time": "2015-08-17 07:16:54"
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
