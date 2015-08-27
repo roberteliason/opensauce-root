@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "hash": "668b6dae8ef3d1a1facf0aa547522cee",
@@ -225,7 +225,7 @@
             "source": {
                 "type": "git",
                 "url": "git@dev.o-lab.se:richard.sweeney/advanced-custom-fields-pro.git",
-                "reference": "246485a939b5baf1b49b2c398a1050b0bda550ca"
+                "reference": "96fcea5deec6621a0a1b13a5f5c8633cb3554629"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -250,19 +250,19 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-08-17 07:16:54"
+            "time": "2015-08-24 11:40:43"
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "5.4.5",
+            "version": "5.4.6",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/5.4.5"
+                "reference": "tags/5.4.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.4.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.4.6.zip",
                 "reference": null,
                 "shasum": null
             },
