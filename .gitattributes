@@ -1,0 +1,8 @@
+.gitignore export-ignore
+.gitattributer export-ignore
+config/ export-ignore
+Capfile export-ignore
+composer.json export-ignore
+composer.lock export-ignore
+vvv-hosts export-ignore
+vvv-nginx.conf export-ignore
