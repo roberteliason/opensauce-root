@@ -192,7 +192,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/roberteliason/opensauce_theme.git",
-                "reference": "0680dc57f9fdede17197ae32dee6a11f59d483ff"
+                "reference": "8c3f091f259eda85b77c27bce2f2a6715610d1a2"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -217,7 +217,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-08-30 15:57:06"
+            "time": "2015-08-30 17:12:32"
         },
         {
             "name": "roberteliason/simple-cache-api",
