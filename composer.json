@@ -1,49 +1,54 @@
 {
-	"name": "opensauce/opensauce-root",
-	"description": "Wordpress Root for Open Sauce",
-	"authors": [
-		{
-			"name": "Robert Eliason",
-			"email": "robert@pardalis.se",
-			"homepage": "http://openasauce.se"
-		}
-	],
-	"type": "project",
-	"repositories": [
-		{
-			"type": "composer",
-			"url": "http://wpackagist.org"
-		},
-		{
-			"type": "git",
-			"url": "git@dev.o-lab.se:richard.sweeney/advanced-custom-fields-pro.git"
-		},
-		{
-			"type": "git",
-			"url": "https://github.com/roberteliason/opensauce_theme.git"
-		}
-	],
-	"config": {
-		"vendor-dir": "content/vendor"
-	},
-	"require": {
-		"php": ">=5.4",
-		"johnpbloch/wordpress": "*",
-		"wpackagist-plugin/wordpress-seo": "*",
-		"wpackagist-plugin/google-analytics-for-wordpress": "*",
-		"shipyard/advanced-custom-fields-pro": "dev-master",
-		"opensauce/opensauce-theme": "dev-develop"
-	},
-    "require-dev": {
-        "wpackagist-plugin/query-monitor": "*",
-        "wpackagist-plugin/duplicate-post": "*"
+  "name": "opensauce/opensauce-root",
+  "description": "Wordpress Root for Open Sauce",
+  "authors": [
+    {
+      "name": "Robert Eliason",
+      "email": "robert@pardalis.se",
+      "homepage": "http://openasauce.se"
+    }
+  ],
+  "type": "project",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
     },
-	"extra": {
-		"installer-paths": {
-			"content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-			"content/plugins/{$name}/": ["type:wordpress-plugin"],
-			"content/themes/{$name}/": ["type:wordpress-theme"]
-		},
-		"wordpress-install-dir": "wp"
-	}
+    {
+      "type": "git",
+      "url": "git@dev.o-lab.se:richard.sweeney/advanced-custom-fields-pro.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/wp-papi/papi.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/roberteliason/opensauce_theme.git"
+    }
+  ],
+  "config": {
+    "vendor-dir": "content/vendor"
+  },
+  "require": {
+    "php": ">=5.4",
+    "johnpbloch/wordpress": "*",
+    "wp-papi/papi": "~2.0",
+    "wpackagist-plugin/wordpress-seo": "*",
+    "wpackagist-plugin/google-analytics-for-wordpress": "*",
+    "shipyard/advanced-custom-fields-pro": "dev-master",
+    "opensauce/opensauce-theme": "dev-develop"
+  },
+  "require-dev": {
+    "wpackagist-plugin/query-monitor": "*",
+    "wpackagist-plugin/duplicate-post": "*"
+  },
+  "extra": {
+    "installer-paths": {
+      "content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "content/plugins/{$name}/": ["type:wordpress-plugin"],
+      "content/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "wp"
+  }
 }

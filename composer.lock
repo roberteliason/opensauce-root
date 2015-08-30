@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "668b6dae8ef3d1a1facf0aa547522cee",
+    "hash": "981cfac27bc0061fc56d66b18109d750",
     "packages": [
         {
             "name": "composer/installers",
@@ -251,6 +251,51 @@
                 "wordpress"
             ],
             "time": "2015-08-24 11:40:43"
+        },
+        {
+            "name": "wp-papi/papi",
+            "version": "v2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-papi/papi.git",
+                "reference": "b9bf3ab1bdc3d67225bdca21a8a50742974d5655"
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.4.7"
+            },
+            "require-dev": {
+                "frozzare/wp-test-suite": "~1.0",
+                "wp-coding-standards/wpcs": "dev-develop"
+            },
+            "type": "wordpress-plugin",
+            "scripts": {
+                "post-install-cmd": [
+                    "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs"
+                ],
+                "post-update-cmd": [
+                    "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fredrik Forsmo",
+                    "email": "fredrik.forsmo@gmail.com",
+                    "homepage": "https://github.com/frozzare"
+                }
+            ],
+            "description": "Page Type API",
+            "homepage": "https://wp-papi.github.io",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/wp-papi/papi/issues"
+            },
+            "time": "2015-08-12 10:54:10"
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
