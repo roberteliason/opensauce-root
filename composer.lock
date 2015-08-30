@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "981cfac27bc0061fc56d66b18109d750",
+    "hash": "430accac55519afa3845d2a011aa5db8",
     "packages": [
         {
             "name": "composer/installers",
@@ -220,37 +220,37 @@
             "time": "2015-08-30 15:57:06"
         },
         {
-            "name": "shipyard/advanced-custom-fields-pro",
+            "name": "roberteliason/simple-cache-api",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@dev.o-lab.se:richard.sweeney/advanced-custom-fields-pro.git",
-                "reference": "96fcea5deec6621a0a1b13a5f5c8633cb3554629"
+                "url": "https://github.com/roberteliason/simple-cache-api.git",
+                "reference": "81318eed7707c2eed9d0e4b005388945afde1cdd"
             },
             "require": {
                 "composer/installers": "~1.0",
-                "php": ">=5.3.2"
+                "php": ">=5.4"
             },
             "type": "wordpress-plugin",
             "extra": {
-                "installer-name": "advanced-custom-fields-pro"
+                "installer-name": "simple-cache-api"
             },
             "license": [
                 "MIT"
             ],
             "authors": [
                 {
-                    "name": "Elliot Condon",
-                    "email": "info@acf.com",
-                    "homepage": "http://www.advancedcustomfields.com/"
+                    "name": "Robert Eliason",
+                    "email": "robert@pardalis.se",
+                    "homepage": "https://github.com/roberteliason"
                 }
             ],
-            "description": "ACF Pro",
-            "homepage": "http://theshipyard.se",
+            "description": "A simple and extensible cache API",
+            "homepage": "https://github.com/roberteliason/simple-cache-api",
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-08-24 11:40:43"
+            "time": "2015-08-30 16:49:18"
         },
         {
             "name": "wp-papi/papi",
@@ -383,7 +383,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "shipyard/advanced-custom-fields-pro": 20,
+        "roberteliason/simple-cache-api": 20,
         "opensauce/opensauce-theme": 20
     },
     "prefer-stable": false,
