@@ -41,6 +41,7 @@
     "wpackagist-plugin/wordpress-seo": "*",
     "wpackagist-plugin/google-analytics-for-wordpress": "*",
     "roberteliason/simple-cache-api": "dev-master",
+    "wpackagist-plugin/async-js-and-css": "*",
     "opensauce/opensauce-theme": "dev-develop"
   },
   "require-dev": {
