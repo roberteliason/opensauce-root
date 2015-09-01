@@ -1,5 +1,5 @@
 .gitignore export-ignore
-.gitattributer export-ignore
+.gitattributes export-ignore
 config/ export-ignore
 Capfile export-ignore
 vvv-hosts export-ignore

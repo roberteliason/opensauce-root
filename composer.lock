@@ -192,7 +192,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/roberteliason/opensauce_theme.git",
-                "reference": "8c3f091f259eda85b77c27bce2f2a6715610d1a2"
+                "reference": "9efa9a92fe0395d6e60a75301b02290e562570ac"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -217,7 +217,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-08-30 17:12:32"
+            "time": "2015-09-01 19:50:56"
         },
         {
             "name": "roberteliason/simple-cache-api",
@@ -225,7 +225,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/roberteliason/simple-cache-api.git",
-                "reference": "81318eed7707c2eed9d0e4b005388945afde1cdd"
+                "reference": "8bfce1a5560d85ca21a20994e2c235a227e4c652"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -250,7 +250,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-08-30 16:49:18"
+            "time": "2015-09-01 19:48:06"
         },
         {
             "name": "wp-papi/papi",
