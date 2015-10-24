@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "430accac55519afa3845d2a011aa5db8",
+    "hash": "184d84250b2e2712a1d5fcd381d64956",
     "packages": [
         {
             "name": "composer/installers",
@@ -103,16 +103,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.3",
+            "version": "4.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "2afe902599538caaa0f1fd7579895dd7cc0ac5f7"
+                "reference": "cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/2afe902599538caaa0f1fd7579895dd7cc0ac5f7",
-                "reference": "2afe902599538caaa0f1fd7579895dd7cc0ac5f7",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f",
+                "reference": "cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f",
                 "shasum": ""
             },
             "require": {
@@ -136,7 +136,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2015-08-18 18:16:11"
+            "time": "2015-09-15 15:01:23"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -192,7 +192,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/roberteliason/opensauce_theme.git",
-                "reference": "23fbc2a8d92216dd3c1ed2f036b13dd9a991a654"
+                "reference": "d5e63a7539aaccfb9f812f2619f46ed9996273ab"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -217,7 +217,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-09-01 20:34:56"
+            "time": "2015-09-15 14:19:33"
         },
         {
             "name": "roberteliason/simple-cache-api",
@@ -254,11 +254,11 @@
         },
         {
             "name": "wp-papi/papi",
-            "version": "v2.2.1",
+            "version": "v2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-papi/papi.git",
-                "reference": "b9bf3ab1bdc3d67225bdca21a8a50742974d5655"
+                "reference": "b60141358af6021d26fbbdd1d8ac9523ff346e84"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -266,9 +266,15 @@
             },
             "require-dev": {
                 "frozzare/wp-test-suite": "~1.0",
+                "sebastian/phpcpd": "~2.0@dev",
                 "wp-coding-standards/wpcs": "dev-develop"
             },
             "type": "wordpress-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
             "scripts": {
                 "post-install-cmd": [
                     "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs"
@@ -287,15 +293,18 @@
                     "homepage": "https://github.com/frozzare"
                 }
             ],
-            "description": "Page Type API",
+            "description": "WordPress Page Type API with custom fields",
             "homepage": "https://wp-papi.github.io",
             "keywords": [
+                "custom fields",
+                "page",
+                "page type",
                 "wordpress"
             ],
             "support": {
                 "issues": "https://github.com/wp-papi/papi/issues"
             },
-            "time": "2015-08-12 10:54:10"
+            "time": "2015-10-15 15:10:40"
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
@@ -319,15 +328,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "2.3.4",
+            "version": "2.3.5",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/2.3.4"
+                "reference": "tags/2.3.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.2.3.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.2.3.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -361,15 +370,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "2.7.4",
+            "version": "2.8.0",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/2.7.4"
+                "reference": "tags/2.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.7.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.8.0.zip",
                 "reference": null,
                 "shasum": null
             },
