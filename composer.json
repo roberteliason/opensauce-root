@@ -36,17 +36,16 @@
   },
   "require": {
     "php": ">=5.4",
-    "johnpbloch/wordpress": "*",
+    "johnpbloch/wordpress": "4.*",
     "wp-papi/papi": "~2.0",
-    "wpackagist-plugin/wordpress-seo": "*",
-    "wpackagist-plugin/google-analytics-for-wordpress": "*",
+    "wpackagist-plugin/wordpress-seo": "2.*",
+    "wpackagist-plugin/google-analytics-for-wordpress": "5.*",
     "roberteliason/simple-cache-api": "dev-master",
-    "wpackagist-plugin/async-js-and-css": "*",
     "opensauce/opensauce-theme": "dev-develop"
   },
   "require-dev": {
-    "wpackagist-plugin/query-monitor": "*",
-    "wpackagist-plugin/duplicate-post": "*"
+    "wpackagist-plugin/query-monitor": "2.*",
+    "wpackagist-plugin/duplicate-post": "2.*"
   },
   "extra": {
     "installer-paths": {

@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5d23be08720c6d4381df7de79ee09b18",
+    "hash": "430accac55519afa3845d2a011aa5db8",
     "packages": [
         {
             "name": "composer/installers",
@@ -296,26 +296,6 @@
                 "issues": "https://github.com/wp-papi/papi/issues"
             },
             "time": "2015-08-12 10:54:10"
-        },
-        {
-            "name": "wpackagist-plugin/async-js-and-css",
-            "version": "1.7.13",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/async-js-and-css/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/async-js-and-css.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/async-js-and-css/"
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
