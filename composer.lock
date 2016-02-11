@@ -1,24 +1,28 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "hash": "430accac55519afa3845d2a011aa5db8",
+    "content-hash": "53351789fddd9eff9d8fa090a098cf24",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.21",
+            "version": "v1.0.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45"
+                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
-                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+                "url": "https://api.github.com/repos/composer/installers/zipball/6213d900e92647831f7a406d5c530ea1f3d4360e",
+                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e",
                 "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
             },
             "replace": {
                 "roundcube/plugin-installer": "*",
@@ -28,9 +32,9 @@
                 "composer/composer": "1.0.*@dev",
                 "phpunit/phpunit": "4.1.*"
             },
-            "type": "composer-installer",
+            "type": "composer-plugin",
             "extra": {
-                "class": "Composer\\Installers\\Installer",
+                "class": "Composer\\Installers\\Plugin",
                 "branch-alias": {
                     "dev-master": "1.0-dev"
                 }
@@ -99,20 +103,20 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2015-02-18 17:17:01"
+            "time": "2016-01-27 12:54:22"
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.3",
+            "version": "4.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "2afe902599538caaa0f1fd7579895dd7cc0ac5f7"
+                "reference": "fe9320de0793602084c600e22c0c5e0bb601a264"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/2afe902599538caaa0f1fd7579895dd7cc0ac5f7",
-                "reference": "2afe902599538caaa0f1fd7579895dd7cc0ac5f7",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/fe9320de0793602084c600e22c0c5e0bb601a264",
+                "reference": "fe9320de0793602084c600e22c0c5e0bb601a264",
                 "shasum": ""
             },
             "require": {
@@ -136,7 +140,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2015-08-18 18:16:11"
+            "time": "2016-02-02 17:16:14"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -192,7 +196,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/roberteliason/opensauce_theme.git",
-                "reference": "8c3f091f259eda85b77c27bce2f2a6715610d1a2"
+                "reference": "d5e63a7539aaccfb9f812f2619f46ed9996273ab"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -217,7 +221,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-08-30 17:12:32"
+            "time": "2015-09-15 14:19:33"
         },
         {
             "name": "roberteliason/simple-cache-api",
@@ -225,7 +229,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/roberteliason/simple-cache-api.git",
-                "reference": "81318eed7707c2eed9d0e4b005388945afde1cdd"
+                "reference": "8bfce1a5560d85ca21a20994e2c235a227e4c652"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -250,15 +254,15 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-08-30 16:49:18"
+            "time": "2015-09-01 19:48:06"
         },
         {
             "name": "wp-papi/papi",
-            "version": "v2.2.1",
+            "version": "v2.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-papi/papi.git",
-                "reference": "b9bf3ab1bdc3d67225bdca21a8a50742974d5655"
+                "reference": "45456fe677f1ff0dec3133679e138aea3c1f35aa"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -266,9 +270,15 @@
             },
             "require-dev": {
                 "frozzare/wp-test-suite": "~1.0",
+                "sebastian/phpcpd": "~2.0@dev",
                 "wp-coding-standards/wpcs": "dev-develop"
             },
             "type": "wordpress-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
             "scripts": {
                 "post-install-cmd": [
                     "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs"
@@ -287,15 +297,18 @@
                     "homepage": "https://github.com/frozzare"
                 }
             ],
-            "description": "Page Type API",
+            "description": "WordPress Page Type API with custom fields",
             "homepage": "https://wp-papi.github.io",
             "keywords": [
+                "custom fields",
+                "page",
+                "page type",
                 "wordpress"
             ],
             "support": {
                 "issues": "https://github.com/wp-papi/papi/issues"
             },
-            "time": "2015-08-12 10:54:10"
+            "time": "2016-02-06 17:09:14"
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
@@ -319,15 +332,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "2.3.4",
+            "version": "3.0.7",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/2.3.4"
+                "reference": "tags/3.0.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.2.3.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.0.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -361,15 +374,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "2.7.4",
+            "version": "2.8.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/2.7.4"
+                "reference": "tags/2.8.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.7.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.8.1.zip",
                 "reference": null,
                 "shasum": null
             },
