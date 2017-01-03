@@ -37,8 +37,8 @@
   "require": {
     "php": ">=5.4",
     "johnpbloch/wordpress": "4.*",
-    "wp-papi/papi": "~2.0",
-    "wpackagist-plugin/wordpress-seo": "3.*",
+    "wp-papi/papi": "3.x-dev",
+    "wpackagist-plugin/wordpress-seo": "4.*",
     "wpackagist-plugin/google-analytics-for-wordpress": "5.*",
     "roberteliason/simple-cache-api": "dev-master",
     "opensauce/opensauce-theme": "dev-develop"

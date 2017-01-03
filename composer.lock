@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d9ecb7dcc4c27047b1b1c5ebb9e3fa1e",
-    "content-hash": "598bf3127c710d585a9124c7388dba4e",
+    "hash": "1dbed3007505a441e1e3b025ba900485",
+    "content-hash": "1f4e6b10c716af7c5f08cbae00e99995",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.25",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e"
+                "reference": "d78064c68299743e0161004f2de3a0204e33b804"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
-                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d78064c68299743e0161004f2de3a0204e33b804",
+                "reference": "d78064c68299743e0161004f2de3a0204e33b804",
                 "shasum": ""
             },
             "require": {
@@ -65,21 +65,26 @@
                 "MODX Evo",
                 "Mautic",
                 "OXID",
+                "Plentymarkets",
+                "RadPHP",
                 "SMF",
                 "Thelia",
                 "WolfCMS",
                 "agl",
                 "aimeos",
                 "annotatecms",
+                "attogram",
                 "bitrix",
                 "cakephp",
                 "chef",
+                "cockpit",
                 "codeigniter",
                 "concrete5",
                 "croogo",
                 "dokuwiki",
                 "drupal",
                 "elgg",
+                "expressionengine",
                 "fuelphp",
                 "grav",
                 "installer",
@@ -96,29 +101,31 @@
                 "piwik",
                 "ppi",
                 "puppet",
+                "reindex",
                 "roundcube",
                 "shopware",
                 "silverstripe",
                 "symfony",
                 "typo3",
                 "wordpress",
+                "yawik",
                 "zend",
                 "zikula"
             ],
-            "time": "2016-04-13 19:46:30"
+            "time": "2016-08-13 20:53:52"
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.5.3",
+            "version": "4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "f5c6f4dd899e6365ddf2752d2705ed1de7e10715"
+                "reference": "b327faa6feea3a4058178dee7ac8b512bd957e92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/f5c6f4dd899e6365ddf2752d2705ed1de7e10715",
-                "reference": "f5c6f4dd899e6365ddf2752d2705ed1de7e10715",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/b327faa6feea3a4058178dee7ac8b512bd957e92",
+                "reference": "b327faa6feea3a4058178dee7ac8b512bd957e92",
                 "shasum": ""
             },
             "require": {
@@ -142,7 +149,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-06-21 16:31:21"
+            "time": "2016-12-06 18:46:46"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -260,33 +267,32 @@
         },
         {
             "name": "wp-papi/papi",
-            "version": "v2.4.18",
+            "version": "3.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-papi/papi.git",
-                "reference": "9d761b18d055587c53d7be4a64841d27c22baacd"
+                "reference": "7e63bb66b76fcff2779a2f9b1f826a0bd2ba41e1"
             },
             "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.4.7"
+                "php": "^5.5.9 || ^7.0"
             },
             "require-dev": {
-                "frozzare/wp-test-suite": "~1.0",
-                "sebastian/phpcpd": "~2.0@dev",
+                "behat/behat": "^2.5",
+                "frozzare/wp-test-suite": "^1.0",
                 "wp-coding-standards/wpcs": "dev-develop"
             },
             "type": "wordpress-plugin",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "scripts": {
                 "post-install-cmd": [
-                    "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs"
+                    "if [ -f vendor/bin/phpcs ]; then \"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs; fi"
                 ],
                 "post-update-cmd": [
-                    "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs"
+                    "if [ -f vendor/bin/phpcs ]; then \"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs; fi"
                 ]
             },
             "license": [
@@ -303,26 +309,25 @@
             "homepage": "https://wp-papi.github.io",
             "keywords": [
                 "custom fields",
+                "options",
                 "page",
                 "page type",
+                "taxonomy",
                 "wordpress"
             ],
-            "support": {
-                "issues": "https://github.com/wp-papi/papi/issues"
-            },
-            "time": "2016-06-20 10:41:59"
+            "time": "2016-12-20 21:23:08"
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "5.5",
+            "version": "5.5.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/5.5"
+                "reference": "tags/5.5.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.5.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -334,15 +339,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.3.4",
+            "version": "4.0.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.3.4"
+                "reference": "tags/4.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.3.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.0.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -365,7 +370,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/duplicate-post.2.6.zip",
-                "reference": null,
+                "reference": "tags/2.6",
                 "shasum": null
             },
             "require": {
@@ -376,15 +381,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "2.11.1",
+            "version": "2.13.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/2.11.1"
+                "reference": "tags/2.13.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.11.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.13.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -398,6 +403,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "wp-papi/papi": 20,
         "roberteliason/simple-cache-api": 20,
         "opensauce/opensauce-theme": 20
     },
