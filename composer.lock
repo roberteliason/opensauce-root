@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1dbed3007505a441e1e3b025ba900485",
-    "content-hash": "1f4e6b10c716af7c5f08cbae00e99995",
+    "hash": "ad9ccfc35d528ee25facf96b9e2455bb",
+    "content-hash": "1d8cf3f0b0f2b383bb7568bc6d26eaa4",
     "packages": [
         {
             "name": "composer/installers",
@@ -316,6 +316,26 @@
                 "wordpress"
             ],
             "time": "2016-12-20 21:23:08"
+        },
+        {
+            "name": "wpackagist-plugin/backwpup",
+            "version": "3.3.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/backwpup/",
+                "reference": "tags/3.3.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/backwpup.3.3.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/backwpup/"
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",

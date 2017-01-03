@@ -40,6 +40,7 @@
     "wp-papi/papi": "3.x-dev",
     "wpackagist-plugin/wordpress-seo": "4.*",
     "wpackagist-plugin/google-analytics-for-wordpress": "5.*",
+    "wpackagist-plugin/backwpup": "3.*",
     "roberteliason/simple-cache-api": "dev-master",
     "opensauce/opensauce-theme": "dev-develop"
   },
