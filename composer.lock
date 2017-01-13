@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "49d1a912461b6b0e041e50dca8b90508",
-    "content-hash": "063af5747de782f4dca5b45c5b2603f9",
+    "hash": "7886c0b2a83f3a5e74f0f1ea881c0d03",
+    "content-hash": "f12f3fc1a22f4ac27b612f39a7fd79e4",
     "packages": [
         {
             "name": "composer/installers",
@@ -267,32 +267,33 @@
         },
         {
             "name": "wp-papi/papi",
-            "version": "3.x-dev",
+            "version": "v2.4.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-papi/papi.git",
-                "reference": "a4e25940554b22476c0cdb60ca3f3b576b95ae50"
+                "reference": "9d761b18d055587c53d7be4a64841d27c22baacd"
             },
             "require": {
-                "php": "^5.5.9 || ^7.0"
+                "composer/installers": "~1.0",
+                "php": ">=5.4.7"
             },
             "require-dev": {
-                "behat/behat": "^2.5",
-                "frozzare/wp-test-suite": "^1.0",
+                "frozzare/wp-test-suite": "~1.0",
+                "sebastian/phpcpd": "~2.0@dev",
                 "wp-coding-standards/wpcs": "dev-develop"
             },
             "type": "wordpress-plugin",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "2.5-dev"
                 }
             },
             "scripts": {
                 "post-install-cmd": [
-                    "if [ -f vendor/bin/phpcs ]; then \"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs; fi"
+                    "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs"
                 ],
                 "post-update-cmd": [
-                    "if [ -f vendor/bin/phpcs ]; then \"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs; fi"
+                    "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs"
                 ]
             },
             "license": [
@@ -309,13 +310,14 @@
             "homepage": "https://wp-papi.github.io",
             "keywords": [
                 "custom fields",
-                "options",
                 "page",
                 "page type",
-                "taxonomy",
                 "wordpress"
             ],
-            "time": "2017-01-10 07:38:31"
+            "support": {
+                "issues": "https://github.com/wp-papi/papi/issues"
+            },
+            "time": "2016-06-20 10:41:59"
         },
         {
             "name": "wpackagist-plugin/backwpup",
@@ -423,7 +425,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wp-papi/papi": 20,
         "roberteliason/simple-cache-api": 20,
         "opensauce/opensauce-theme": 20
     },
