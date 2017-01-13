@@ -116,16 +116,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.7",
+            "version": "4.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "b327faa6feea3a4058178dee7ac8b512bd957e92"
+                "reference": "6a6a20e568db37fb501fe9deb75ed2a8600d1b30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/b327faa6feea3a4058178dee7ac8b512bd957e92",
-                "reference": "b327faa6feea3a4058178dee7ac8b512bd957e92",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/6a6a20e568db37fb501fe9deb75ed2a8600d1b30",
+                "reference": "6a6a20e568db37fb501fe9deb75ed2a8600d1b30",
                 "shasum": ""
             },
             "require": {
@@ -149,7 +149,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-12-06 18:46:46"
+            "time": "2017-01-11 17:46:47"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -271,7 +271,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-papi/papi.git",
-                "reference": "7e63bb66b76fcff2779a2f9b1f826a0bd2ba41e1"
+                "reference": "a4e25940554b22476c0cdb60ca3f3b576b95ae50"
             },
             "require": {
                 "php": "^5.5.9 || ^7.0"
@@ -315,7 +315,7 @@
                 "taxonomy",
                 "wordpress"
             ],
-            "time": "2016-12-20 21:23:08"
+            "time": "2017-01-10 07:38:31"
         },
         {
             "name": "wpackagist-plugin/backwpup",
