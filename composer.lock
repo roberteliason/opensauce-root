@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ad9ccfc35d528ee25facf96b9e2455bb",
-    "content-hash": "1d8cf3f0b0f2b383bb7568bc6d26eaa4",
+    "hash": "49d1a912461b6b0e041e50dca8b90508",
+    "content-hash": "063af5747de782f4dca5b45c5b2603f9",
     "packages": [
         {
             "name": "composer/installers",
@@ -381,16 +381,16 @@
     "packages-dev": [
         {
             "name": "wpackagist-plugin/duplicate-post",
-            "version": "2.6",
+            "version": "3.1.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/duplicate-post/",
-                "reference": "tags/2.6"
+                "reference": "tags/3.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duplicate-post.2.6.zip",
-                "reference": "tags/2.6",
+                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.1.2.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {

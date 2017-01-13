@@ -46,7 +46,7 @@
   },
   "require-dev": {
     "wpackagist-plugin/query-monitor": "2.*",
-    "wpackagist-plugin/duplicate-post": "2.*"
+    "wpackagist-plugin/duplicate-post": "3.*"
   },
   "extra": {
     "installer-paths": {
