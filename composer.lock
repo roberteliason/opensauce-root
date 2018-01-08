@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.3.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "79ad876c7498c0bbfe7eed065b8651c93bfd6045"
+                "reference": "049797d727261bf27f2690430d935067710049c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/79ad876c7498c0bbfe7eed065b8651c93bfd6045",
-                "reference": "79ad876c7498c0bbfe7eed065b8651c93bfd6045",
+                "url": "https://api.github.com/repos/composer/installers/zipball/049797d727261bf27f2690430d935067710049c2",
+                "reference": "049797d727261bf27f2690430d935067710049c2",
                 "shasum": ""
             },
             "require": {
@@ -29,7 +29,7 @@
             },
             "require-dev": {
                 "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "4.1.*"
+                "phpunit/phpunit": "^4.8.36"
             },
             "type": "composer-plugin",
             "extra": {
@@ -63,6 +63,7 @@
                 "Hurad",
                 "ImageCMS",
                 "Kanboard",
+                "Lan Management System",
                 "MODX Evo",
                 "Mautic",
                 "Maya",
@@ -86,6 +87,7 @@
                 "croogo",
                 "dokuwiki",
                 "drupal",
+                "eZ Platform",
                 "elgg",
                 "expressionengine",
                 "fuelphp",
@@ -98,14 +100,18 @@
                 "lavalite",
                 "lithium",
                 "magento",
+                "majima",
                 "mako",
                 "mediawiki",
                 "modulework",
+                "modx",
                 "moodle",
+                "osclass",
                 "phpbb",
                 "piwik",
                 "ppi",
                 "puppet",
+                "pxcms",
                 "reindex",
                 "roundcube",
                 "shopware",
@@ -118,24 +124,24 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2017-04-24T06:37:16+00:00"
+            "time": "2017-12-29T09:13:20+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.8.0",
+            "version": "4.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "24edf4daca6bc15ad3b78c5927468df487d47a37"
+                "reference": "988875c1ec9f0474d1f77038b7a52f91125fc5f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/24edf4daca6bc15ad3b78c5927468df487d47a37",
-                "reference": "24edf4daca6bc15ad3b78c5927468df487d47a37",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/988875c1ec9f0474d1f77038b7a52f91125fc5f4",
+                "reference": "988875c1ec9f0474d1f77038b7a52f91125fc5f4",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.8.0",
+                "johnpbloch/wordpress-core": "4.9.1",
                 "johnpbloch/wordpress-core-installer": "^1.0",
                 "php": ">=5.3.2"
             },
@@ -157,24 +163,27 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-06-08T15:12:19+00:00"
+            "time": "2017-11-29T21:57:18+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.8.0",
+            "version": "4.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "58f209dfd66f61c4398a47cf53e90d378abc25d7"
+                "reference": "e47f6652557c3160ee432c2fca5594ac1a8698f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/58f209dfd66f61c4398a47cf53e90d378abc25d7",
-                "reference": "58f209dfd66f61c4398a47cf53e90d378abc25d7",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/e47f6652557c3160ee432c2fca5594ac1a8698f5",
+                "reference": "e47f6652557c3160ee432c2fca5594ac1a8698f5",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
+            },
+            "provide": {
+                "wordpress/core-implementation": "4.9.1"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -194,7 +203,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-06-08T15:12:14+00:00"
+            "time": "2017-11-29T21:57:13+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -276,7 +285,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2016-05-18 18:49:29"
+            "time": "2016-05-18T18:49:29+00:00"
         },
         {
             "name": "shipyard/advanced-custom-fields-pro",
@@ -284,7 +293,7 @@
             "source": {
                 "type": "git",
                 "url": "git@dev.o-lab.se:richard.sweeney/advanced-custom-fields-pro.git",
-                "reference": "c70440027496964f53c51114442d976535153cdd"
+                "reference": "3e72b0c06c77f39806693945049d157c919dd3f9"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -309,19 +318,19 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2017-05-08 14:15:22"
+            "time": "2017-12-08T12:32:23+00:00"
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "6.2.0",
+            "version": "6.2.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/6.2.0"
+                "reference": "tags/6.2.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.6.2.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.6.2.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -333,15 +342,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "2.13.4",
+            "version": "2.17.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/2.13.4"
+                "reference": "tags/2.17.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.13.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.17.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -353,15 +362,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "4.9",
+            "version": "6.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/4.9"
+                "reference": "tags/6.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.9.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.6.0.zip",
                 "reference": null,
                 "shasum": null
             },
