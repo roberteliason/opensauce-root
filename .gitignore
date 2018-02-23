@@ -6,3 +6,4 @@ content/*
 local-config.php
 *.sql
 .capistrano
+log/
